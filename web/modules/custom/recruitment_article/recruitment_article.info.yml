@@ -1,0 +1,5 @@
+name: 'Recruitment article'
+type: module
+description: 'This was created for recruitment process.'
+core_version_requirement: ^9
+package: 'Custom'

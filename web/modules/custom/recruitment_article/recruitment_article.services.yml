@@ -1,0 +1,6 @@
+services:
+  Drupal\recruitment_article\Repository\ArticleRepository:
+    class: Drupal\recruitment_article\Repository\ArticleRepository
+    arguments: [ '@entity_type.manager' ]
+  Drupal\recruitment_article\Mapper\ArticlesMapper:
+    class: Drupal\recruitment_article\Mapper\ArticlesMapper

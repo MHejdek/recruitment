@@ -1,0 +1,18 @@
+uuid: 8333a5b2-5afe-42b6-9aa1-bccd94b7f893
+langcode: en
+status: true
+dependencies:
+  module:
+    - recruitment_article
+    - serialization
+    - user
+id: article_resource
+plugin_id: article_resource
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie

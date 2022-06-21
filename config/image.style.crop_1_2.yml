@@ -1,0 +1,15 @@
+uuid: ae61447d-689a-4a01-a50f-f4678e08d47a
+langcode: en
+status: true
+dependencies: {  }
+name: crop_1_2
+label: 'Crop (1:2)'
+effects:
+  6201ace3-ba8d-4187-807e-5b25e5fda589:
+    uuid: 6201ace3-ba8d-4187-807e-5b25e5fda589
+    id: image_crop
+    weight: 1
+    data:
+      width: 100
+      height: 200
+      anchor: center-center
