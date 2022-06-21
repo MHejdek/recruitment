@@ -35,6 +35,15 @@
             "drupal/core-project-message": true
         }
     },
+    "scripts": {
+        "build": [
+            "composer install",
+            "ddev drush sql-cli < backup.sql",
+            "ddev drush updb",
+            "ddev drush cim",
+            "ddev drush cr"
+        ]
+    },
     "extra": {
         "drupal-scaffold": {
             "locations": {
